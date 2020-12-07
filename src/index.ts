@@ -11,9 +11,14 @@ let c = {
 
 let d = c.apple * 4;
 
-// d = null;
-
 console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
+
+function squareOf(n: number) {
+  return n * n;
+}
+
+console.log(squareOf(5));
+// console.log(squareOf("a")); error
